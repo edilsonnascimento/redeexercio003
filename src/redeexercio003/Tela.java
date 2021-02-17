@@ -137,7 +137,7 @@ public class Tela extends javax.swing.JFrame {
     private void jBTEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBTEnviarActionPerformed
 
         Pessoa pessoa = new Pessoa(jTFNome.getText(),Integer.valueOf(jTFIdade.getText()));
-        jTARetornoServidor.append("Recebeu do servidor \n");
+        jTARetornoServidor.append("Dados enviados ao servidor \n");
         jTARetornoServidor.append(enviarPessoa(pessoa));
     }//GEN-LAST:event_jBTEnviarActionPerformed
 
